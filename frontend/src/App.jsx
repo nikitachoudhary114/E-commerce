@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Footer from './components/Footer'
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Navbar from './components/Navbar'
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div className='text-3xl'>ShopVerse</div>
+      <Navbar/>
       <Footer/>
     </>
   )
