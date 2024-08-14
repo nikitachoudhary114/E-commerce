@@ -11,8 +11,7 @@ function App() {
 
   return (
     <>
-      
-      <Footer/>
+     <div className='text-3xl'>ShopVerse</div>
     </>
   )
 }
